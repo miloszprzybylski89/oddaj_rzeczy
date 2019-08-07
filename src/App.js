@@ -1,10 +1,13 @@
 import React from 'react';
+
 import './App.scss';
+
+import LandingPage from './views/LandingPage';
 
 function App() {
   return (
     <div className="App">
-      <h1>Main app view</h1>
+      <LandingPage />
     </div>
   );
 }
