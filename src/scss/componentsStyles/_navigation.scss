@@ -1,0 +1,33 @@
+.login {
+  display: flex;
+  justify-content: center;
+
+  &__btn,
+  &__btn-signUp {
+    padding: 10px;
+    margin: 10px;
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+  }
+
+  &__btn-signUp {
+    border: solid yellow 1px;
+  }
+}
+
+.navigation {
+  display: flex;
+
+  &__element {
+    padding: 20px;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+  }
+}
+
+.activeNavLink {
+  border: solid black 1px;
+  padding: 20px 30px;
+}

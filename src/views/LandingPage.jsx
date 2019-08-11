@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import Header from '../components/complexComponents/Header';
-import StartHelping from '../components/complexComponents/StartHelping';
 import AboutUs from '../components/complexComponents/AboutUs';
 import AlreadyDone from '../components/complexComponents/AlreadyDone';
 import FourSimpleSteps from '../components/complexComponents/FourSimpleSteps';
@@ -14,7 +13,6 @@ class LandingPage extends Component {
         return (
             <div className='landingPage'>
                 <Header />
-                <StartHelping />
                 <AlreadyDone />
                 <FourSimpleSteps />
                 <AboutUs />

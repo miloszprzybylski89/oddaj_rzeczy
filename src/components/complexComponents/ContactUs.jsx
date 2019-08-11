@@ -10,8 +10,8 @@ class ContactUs extends Component {
     }
     render() {
         return (
-            <section className='contactUs'>
-                <SectionTitle title='Skontaktuj się z nami' />
+            <section id='contactUs'>
+                <SectionTitle titleLineTwo='Skontaktuj się z nami' />
                 <Footer />
             </section>
         );

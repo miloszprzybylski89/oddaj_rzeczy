@@ -9,8 +9,8 @@ class WhoWeHelp extends Component {
     }
     render() {
         return (
-            <section className='whoWeHelp'>
-                <SectionTitle title='Komu pomagamy?' />
+            <section id='whoWeHelp'>
+                <SectionTitle titleLineTwo='Komu pomagamy?' />
             </section>
         );
     }

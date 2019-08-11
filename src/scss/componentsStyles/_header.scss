@@ -1,0 +1,16 @@
+@import "./navigation";
+
+header {
+  background-image: url("./assets/images/background/header_start_img.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 24px;
+}
+
+.login {
+  &__loginBtn {
+  }
+}

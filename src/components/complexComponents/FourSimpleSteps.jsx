@@ -7,8 +7,8 @@ import SectionTitle from '../simpleComponents/SectionTitle';
 
 const FourSimpleSteps = () => {
     return (
-        <section className='fourSimpleSteps'>
-            <SectionTitle title='Wystarczą 4 proste kroki' />
+        <section id='fourSimpleSteps'>
+            <SectionTitle titleLineTwo='Wystarczą 4 proste kroki' />
             <div className='fourStepsContainer'>
                 <div className='step'>
                     <FaRegLightbulb />

@@ -4,7 +4,7 @@ import { FaRegCopyright, FaFacebookF, FaInstagram } from 'react-icons/fa';
 
 const Footer = () => {
     return (
-        <section className='footer'>
+        <section id='footer'>
             <div></div>
             <span className='copyright'>Copyright 2015 <FaRegCopyright /> by Anna Dadej</span>
             <div className='socialMedia'>

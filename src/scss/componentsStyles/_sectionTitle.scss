@@ -1,0 +1,9 @@
+.sectionTitle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &-decoration {
+    margin: 24px;
+  }
+}

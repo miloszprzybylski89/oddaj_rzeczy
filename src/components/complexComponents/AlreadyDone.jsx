@@ -2,7 +2,7 @@ import React from 'react';
 
 const AlreadyDone = () => {
     return (
-        <section className='alreadyDone'>
+        <section id='alreadyDone'>
             <div className='alreadyDone__element'>
                 <span className='alreadyDone__element-number'>10</span>
                 <span className='alreadyDone__element-supported'>ODDANYCH WORKÓW</span>

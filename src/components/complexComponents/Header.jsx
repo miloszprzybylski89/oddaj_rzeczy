@@ -1,12 +1,16 @@
 import React from 'react';
-import Login from '../complexComponents/Login';
+import StartHelping from './StartHelping';
 import Navigation from '../simpleComponents/Navigation';
+
 
 const Header = () => {
     return (
-        <header>
-            <Login />
+        <header id='header'>
             <Navigation />
+            <StartHelping />
+            <div className='functions'>
+
+            </div>
         </header>
     );
 }
