@@ -2,7 +2,7 @@ import React from 'react';
 
 import './App.scss';
 
-import LandingPage from './views/LandingPage';
+import LandingPage from './containers/LandingPage';
 import Login from './views/Login';
 import SignUp from './views/SignUp';
 
