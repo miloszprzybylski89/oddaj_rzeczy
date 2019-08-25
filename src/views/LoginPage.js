@@ -3,6 +3,7 @@ import { connect } from 'react-redux'
 import SectionTitle from '../components/simpleComponents/SectionTitle';
 import Navigation from '../components/simpleComponents/Navigation';
 import { login } from '../Redux/actions';
+import { NavLink } from "react-router-dom";
 
 class LoginPage extends Component {
     constructor(props) {
@@ -16,6 +17,7 @@ class LoginPage extends Component {
             <>
                 <Navigation />
                 <SectionTitle titleLineOne='Zaloguj się' />
+                <NavLink to='/signUp/'>Zarejestruj się</NavLink>
             </>
         );
     }

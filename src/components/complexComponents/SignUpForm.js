@@ -8,7 +8,7 @@ class SignUpForm extends Component {
     render() {
         return (
             <form>
-                <h1>Join aour community!</h1>
+                <h1>Join our community!</h1>
 
                 <div>
                     <label>User name</label>
