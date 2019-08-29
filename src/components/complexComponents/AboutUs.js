@@ -10,7 +10,9 @@ const AboutUs = () => {
                 <span className='aboutUs__description'>
                     Nori Grape silver beet broccoli kombu beet greens fava bean potato quandong celery. Bunya nuts black-eyed pea praire turnip leek lentil turnip greens parsnip.
                 </span>
+                <div className='aboutUs__sign' />
             </div>
+            <div className='aboutUs__photo' />
         </section>
     );
 }

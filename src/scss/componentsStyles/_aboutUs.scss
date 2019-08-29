@@ -1,0 +1,36 @@
+@import "./variables";
+@import "../colors";
+
+#aboutUs {
+  margin: 24px auto;
+  padding: 2rem;
+  background-color: $secondaryBgColor;
+  display: flex;
+  justify-content: space-between;
+}
+
+.aboutUs {
+  &__content {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &__sign {
+    background-image: url("./assets/images/signature.png");
+    height: 200px;
+    width: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  &__photo {
+    width: 50%;
+    background-image: url("./assets/images/background/about.jpg");
+    min-height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+}
