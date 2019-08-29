@@ -1,0 +1,106 @@
+{
+  "dataBase": [
+    {
+      "foundations": [
+        {
+          "name": "'Fundacja 'Dbam o zdrowie'",
+          "goal": "Pomoc osobom znajdującym się w trudnej sytuacji życiowej",
+          "takes": ["ubrania", "jedzenie", "sprzęt AGD", "meble", "zabawki"]
+        },
+        {
+          "name": "'Fundacja 'Dbam o szczęście'",
+          "goal": "Pomoc osobom znajdującym się w trudnej sytuacji życiowej",
+          "takes": ["ubrania", "jedzenie", "sprzęt AGD", "meble", "zabawki"]
+        },
+        {
+          "name": "'Fundacja 'Dbam o wodę'",
+          "goal": "Pomoc osobom znajdującym się w trudnej sytuacji życiowej",
+          "takes": ["ubrania", "jedzenie", "sprzęt AGD", "meble", "zabawki"]
+        },
+        {
+          "name": "'Fundacja 'Dbam o jedzenie'",
+          "goal": "Pomoc osobom znajdującym się w trudnej sytuacji życiowej",
+          "takes": ["ubrania", "jedzenie", "sprzęt AGD", "meble", "zabawki"]
+        },
+        {
+          "name": "'Fundacja 'Dbam o zabawę'",
+          "goal": "Pomoc osobom znajdującym się w trudnej sytuacji życiowej",
+          "takes": ["ubrania", "jedzenie", "sprzęt AGD", "meble", "zabawki"]
+        },
+        {
+          "name": "'Fundacja 'Dbam o nic'",
+          "goal": "Pomoc osobom znajdującym się w trudnej sytuacji życiowej",
+          "takes": ["ubrania", "jedzenie", "sprzęt AGD", "meble", "zabawki"]
+        }
+      ]
+    },
+    {
+      "organizations": [
+        {
+          "name": "'Organizacja 'Dbam o zdrowie'",
+          "goal": "Pomoc osobom znajdującym się w trudnej sytuacji życiowej",
+          "takes": ["ubrania", "jedzenie", "sprzęt AGD", "meble", "zabawki"]
+        },
+        {
+          "name": "'Organizacja 'Dbam o szczęście'",
+          "goal": "Pomoc osobom znajdującym się w trudnej sytuacji życiowej",
+          "takes": ["ubrania", "jedzenie", "sprzęt AGD", "meble", "zabawki"]
+        },
+        {
+          "name": "'Organizacja 'Dbam o wodę'",
+          "goal": "Pomoc osobom znajdującym się w trudnej sytuacji życiowej",
+          "takes": ["ubrania", "jedzenie", "sprzęt AGD", "meble", "zabawki"]
+        },
+        {
+          "name": "'Organizacja 'Dbam o jedzenie'",
+          "goal": "Pomoc osobom znajdującym się w trudnej sytuacji życiowej",
+          "takes": ["ubrania", "jedzenie", "sprzęt AGD", "meble", "zabawki"]
+        },
+        {
+          "name": "'Organizacja 'Dbam o zabawę'",
+          "goal": "Pomoc osobom znajdującym się w trudnej sytuacji życiowej",
+          "takes": ["ubrania", "jedzenie", "sprzęt AGD", "meble", "zabawki"]
+        },
+        {
+          "name": "'Organizacja 'Dbam o nic'",
+          "goal": "Pomoc osobom znajdującym się w trudnej sytuacji życiowej",
+          "takes": ["ubrania", "jedzenie", "sprzęt AGD", "meble", "zabawki"]
+        }
+      ]
+    },
+    {
+      "local_collections": [
+        {
+          "name": "Zbiórka dla Adasia",
+          "goal": "Pomoc osobom znajdującym się w trudnej sytuacji życiowej",
+          "takes": ["ubrania", "jedzenie", "sprzęt AGD", "meble", "zabawki"]
+        },
+        {
+          "name": "Zbiórka dla mamusi",
+          "goal": "Pomoc osobom znajdującym się w trudnej sytuacji życiowej",
+          "takes": ["ubrania", "jedzenie", "sprzęt AGD", "meble", "zabawki"]
+        },
+        {
+          "name": "Zbiórka dla biednych",
+          "goal": "Pomoc osobom znajdującym się w trudnej sytuacji życiowej",
+          "takes": ["ubrania", "jedzenie", "sprzęt AGD", "meble", "zabawki"]
+        },
+        {
+          "name": "Zbiórka dla Caritas",
+          "goal": "Pomoc osobom znajdującym się w trudnej sytuacji życiowej",
+          "takes": ["ubrania", "jedzenie", "sprzęt AGD", "meble", "zabawki"]
+        },
+        {
+          "name": "Zbiórka dla kogoś jeszcze",
+          "goal": "Pomoc osobom znajdującym się w trudnej sytuacji życiowej",
+          "takes": ["ubrania", "jedzenie", "sprzęt AGD", "meble", "zabawki"]
+        },
+        {
+          "name": "Zbiórka dla mnie :)",
+          "goal": "Pomoc osobom znajdującym się w trudnej sytuacji życiowej",
+          "takes": ["ubrania", "jedzenie", "sprzęt AGD", "meble", "zabawki"]
+        }
+      ]
+    }
+  ]
+}
