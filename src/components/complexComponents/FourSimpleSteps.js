@@ -1,6 +1,6 @@
 import React from 'react';
 import { FaRegLightbulb, FaArrowDown, FaGlasses, FaExchangeAlt } from 'react-icons/fa';
-
+import { NavLink } from 'react-router-dom';
 
 import SectionTitle from '../simpleComponents/SectionTitle';
 
@@ -34,10 +34,10 @@ const FourSimpleSteps = () => {
                     <div className='step-line' />
                     <span className='step-description'>kurier przyjedzie w dogodnym terminie</span>
                 </div>
-                <div className='signUp-btn'>
-                    ZAŁÓŻ KONTO
-                </div>
             </div>
+            <NavLink to='/signUp' className='signUp-btn'>
+                ZAŁÓŻ KONTO
+            </NavLink>
         </section>
     );
 }
