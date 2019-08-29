@@ -16,12 +16,9 @@ export const setLoginSuccess = (data) => ({
 export const login = (email, password) => (dispatch) => {
     dispatch(loginStart());
 
-    fetch('jakis http', {
-        method: 'POST',
-        body: JSON.stringify({
-            email, password
-        })
-    })
+    fetch('http://localhost:3001/users')
+        .then(res => res.json())
+        .then(res => res.find(item => item.login === email && item.password === password))
         .then(success => {
             dispatch(setLoginSuccess(success));
         })

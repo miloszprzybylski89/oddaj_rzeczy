@@ -1,4 +1,11 @@
 {
+  "users": [
+    {
+      "name": "Milosz",
+      "login": "piasqnik",
+      "password": "1234"
+    }
+  ],
   "dataBase": [
     {
       "foundations": [

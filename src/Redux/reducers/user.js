@@ -1,26 +1,18 @@
-import { combineReducers } from "redux";
-import { LOGIN_PENDING, LOGIN_SUCCESS } from './actions'
+import { LOGIN_PENDING, LOGIN_SUCCESS, LOGIN_ERROR } from '../actions/login'
 
-
-
-const user = (state = [], { type, payload }) => {
+export default function (state = [], { type, payload }) {
     switch (type) {
         case LOGIN_PENDING:
             return {
                 pending: true,
-                user: null,
+                current: null,
             }
         case LOGIN_SUCCESS:
             return {
                 pending: false,
-                user: payload,
+                current: payload,
             }
         default:
             return state
     }
 }
-
-
-export default combineReducers({
-    user
-})
